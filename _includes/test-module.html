@@ -1,0 +1,24 @@
+<article class="tech-tree-module tech-tree-module--type-{{ include.type }} {{ include.class }}" data-type="{{ include.type }}">
+  <div class="tech-tree-module__content">
+    <header class="tech-tree-module__header">
+      <aside class="tech-tree-module__lock-status">
+        <span class='fa fa-{% if include.progress %}tasks{% else %}lock{% endif %}'></span>
+      </aside>
+    </header>
+    <section class="tech-tree-module__identifier">
+      {{ include.name }}
+    </section>
+    <progress class="tech-tree-module__progress" max="5" value="{{ include.progress }}"></progress>
+  </div>
+
+
+  <aside class="tech-tree-module__overlay">
+    <h1 class="tech-tree-module__overlay__header">The Problem We’re Solving</h1>
+    <p>Pickers today pick a single Fix at a time until it is complete, then move
+      on to the next Fix. This is inefficient and we’ve determined through
+      experimentation that we could improve this process through a system called
+      Batch Picking to LPN. This system should be a simple solution that we can
+      put in place with a minimal amount of resources and in a very short time.
+    </p>
+  </aside>
+</article>

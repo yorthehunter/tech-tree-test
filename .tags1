@@ -1,0 +1,38 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+tech-tree-module-vertical-space-between	/Users/briancleveland/work/yorthehunter/tech-tree-test/_sass/_base0.scss	/^$tech-tree-module-vertical-space-between: $grid_gutter;$/;"	function	line:1
+tech-tree-module-border-width	/Users/briancleveland/work/yorthehunter/tech-tree-test/_sass/_base0.scss	/^$tech-tree-module-border-width: 8px;$/;"	function	line:2
+color-a	/Users/briancleveland/work/yorthehunter/tech-tree-test/_sass/_base0.scss	/^$color-a: #2E88C4;$/;"	function	line:4
+color-b	/Users/briancleveland/work/yorthehunter/tech-tree-test/_sass/_base0.scss	/^$color-b: #8E60D7;$/;"	function	line:5
+color-c	/Users/briancleveland/work/yorthehunter/tech-tree-test/_sass/_base0.scss	/^$color-c: #E85770;$/;"	function	line:6
+color-d	/Users/briancleveland/work/yorthehunter/tech-tree-test/_sass/_base0.scss	/^$color-d: #5BC672;$/;"	function	line:7
+color-a--faded	/Users/briancleveland/work/yorthehunter/tech-tree-test/_sass/_base0.scss	/^$color-a--faded: rgba($color-a, 0.4);$/;"	function	line:9
+color-b--faded	/Users/briancleveland/work/yorthehunter/tech-tree-test/_sass/_base0.scss	/^$color-b--faded: rgba($color-b, 0.4);$/;"	function	line:10
+color-c--faded	/Users/briancleveland/work/yorthehunter/tech-tree-test/_sass/_base0.scss	/^$color-c--faded: rgba($color-c, 0.4);$/;"	function	line:11
+color-d--faded	/Users/briancleveland/work/yorthehunter/tech-tree-test/_sass/_base0.scss	/^$color-d--faded: rgba($color-d, 0.4);$/;"	function	line:12
+bg_color	/Users/briancleveland/work/yorthehunter/tech-tree-test/_sass/_base0.scss	/^$bg_color: #2D3E50;$/;"	function	line:14
+body	/Users/briancleveland/work/yorthehunter/tech-tree-test/_sass/_base0.scss	/^body {$/;"	function	line:16
+.tech-tree	/Users/briancleveland/work/yorthehunter/tech-tree-test/_sass/_base0.scss	/^.tech-tree {$/;"	function	line:20
+&__level	/Users/briancleveland/work/yorthehunter/tech-tree-test/_sass/_base0.scss	/^  &__level {$/;"	function	line:21
+connection	/Users/briancleveland/work/yorthehunter/tech-tree-test/_sass/_base0.scss	/^connection {$/;"	function	line:27
+&.connection--a	/Users/briancleveland/work/yorthehunter/tech-tree-test/_sass/_base0.scss	/^  &.connection--a { color: $color-a--faded; }$/;"	function	line:33
+&.connection--b	/Users/briancleveland/work/yorthehunter/tech-tree-test/_sass/_base0.scss	/^  &.connection--b { color: $color-b--faded; }$/;"	function	line:34
+&.connection--c	/Users/briancleveland/work/yorthehunter/tech-tree-test/_sass/_base0.scss	/^  &.connection--c { color: $color-c--faded; }$/;"	function	line:35
+&.connection--d	/Users/briancleveland/work/yorthehunter/tech-tree-test/_sass/_base0.scss	/^  &.connection--d { color: $color-d--faded; }$/;"	function	line:36
+.tech-tree-module	/Users/briancleveland/work/yorthehunter/tech-tree-test/_sass/_base0.scss	/^.tech-tree-module {$/;"	function	line:39
+&__header	/Users/briancleveland/work/yorthehunter/tech-tree-test/_sass/_base0.scss	/^  &__header{$/;"	function	line:48
+&--type-a	/Users/briancleveland/work/yorthehunter/tech-tree-test/_sass/_base0.scss	/^    &--type-a { background-color: $color-a; }$/;"	function	line:51
+&--type-b	/Users/briancleveland/work/yorthehunter/tech-tree-test/_sass/_base0.scss	/^    &--type-b { background-color: $color-b; }$/;"	function	line:52
+&--type-c	/Users/briancleveland/work/yorthehunter/tech-tree-test/_sass/_base0.scss	/^    &--type-c { background-color: $color-c; }$/;"	function	line:53
+&--type-d	/Users/briancleveland/work/yorthehunter/tech-tree-test/_sass/_base0.scss	/^    &--type-d { background-color: $color-d; }$/;"	function	line:54
+&__identifier	/Users/briancleveland/work/yorthehunter/tech-tree-test/_sass/_base0.scss	/^  &__identifier {$/;"	function	line:57
+&__progress	/Users/briancleveland/work/yorthehunter/tech-tree-test/_sass/_base0.scss	/^  &__progress{$/;"	function	line:60
+&--1	/Users/briancleveland/work/yorthehunter/tech-tree-test/_sass/_base0.scss	/^    &--1 { }$/;"	function	line:61
+&--2	/Users/briancleveland/work/yorthehunter/tech-tree-test/_sass/_base0.scss	/^    &--2 { }$/;"	function	line:62
+&--3	/Users/briancleveland/work/yorthehunter/tech-tree-test/_sass/_base0.scss	/^    &--3 { }$/;"	function	line:63
+&--4	/Users/briancleveland/work/yorthehunter/tech-tree-test/_sass/_base0.scss	/^    &--4 { }$/;"	function	line:64
+&--5	/Users/briancleveland/work/yorthehunter/tech-tree-test/_sass/_base0.scss	/^    &--5 { }$/;"	function	line:65

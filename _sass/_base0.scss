@@ -1,0 +1,118 @@
+$tech-tree-module-vertical-space-between: $grid_gutter;
+$tech-tree-module-border-width: 8px;
+
+$color-a: #2E88C4;
+$color-b: #8E60D7;
+$color-c: #E85770;
+$color-d: #5BC672;
+
+$color-ghost-black-base:  rgba(0,0,0,0.5);
+$color-ghost-black-light: rgba(0,0,0,0.3);
+$color-text-light: #F7F7F7;
+
+$transition-speed-fast:    0.2s;
+$transition-speed-medium:  0.4s;
+$transition-speed-slow:    0.8s;
+$transition-speed-default: $transition-speed-fast;
+
+$color-a--faded: rgba($color-a, 0.4);
+$color-b--faded: rgba($color-b, 0.4);
+$color-c--faded: rgba($color-c, 0.4);
+$color-d--faded: rgba($color-d, 0.4);
+
+$bg_color: #2D3E50;
+
+body {
+  background-color: $bg_color;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.tech-tree {
+  &__level {
+    @extend %grid !optional;
+  }
+}
+
+connection {
+  // z-index: -1;
+  border: 8px solid;
+  color: $color-ghost-black-base;
+  border-radius: 40px;
+  pointer-events: none;
+  opacity: 0.4;
+  transition: all $transition-speed-medium ease-out;
+
+
+  &.connection--dark { opacity: 1.0; }
+  &.connection--a { color: $color-a; }
+  &.connection--b { color: $color-b; }
+  &.connection--c { color: $color-c; }
+  &.connection--d { color: $color-d; }
+}
+
+.tech-tree-module {
+  @extend %g, %_2-16 !optional;
+  height: 100px;
+  margin-top: $tech-tree-module-vertical-space-between;
+  position: relative;
+  background-color: white;
+  border-radius: 6px;
+  box-shadow: 0 3px 8px $color-ghost-black-light;
+  transition: all $transition-speed-default ease-out;
+
+  &__overlay {
+    transition: all $transition-speed-default ease-out;
+    position: absolute;
+    @extend %g, %_6-16 !optional;
+    display: none;
+    left: 80px;
+    top: 0;
+    background-color: $color-text-light;
+    padding: 0.5rem;
+    border-radius: 6px;
+
+    &__header {
+      margin: 0;
+      font-size: 1rem;
+    }
+  }
+
+  &__content{
+    color: $color-text-light;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  &--type-a { background-color: $color-a; }
+  &--type-b { background-color: $color-b; }
+  &--type-c { background-color: $color-c; }
+  &--type-d { background-color: $color-d; }
+
+  &:hover {
+    cursor: pointer;
+    z-index: 1;
+    transform: scale(1.1);
+
+    .tech-tree-module__overlay {
+      display: block !important;
+    }
+  }
+
+  &__header{
+    height: 26px;
+  }
+
+  &__identifier {
+    font-size: 0.8rem;
+    text-align: center;
+  }
+  &__progress{
+    width: auto;
+    display: block;
+    height: 1.2em;
+  }
+}
