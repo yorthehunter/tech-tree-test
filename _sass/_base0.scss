@@ -34,14 +34,12 @@ body {
 }
 
 connection {
-  // z-index: -1;
   border: 8px solid;
   color: $color-ghost-black-base;
   border-radius: 40px;
   pointer-events: none;
   opacity: 0.4;
   transition: all $transition-speed-medium ease-out;
-
 
   &.connection--dark { opacity: 1.0; }
   &.connection--a { color: $color-a; }
@@ -68,12 +66,19 @@ connection {
     left: 80px;
     top: 0;
     background-color: $color-text-light;
-    padding: 0.5rem;
     border-radius: 6px;
 
-    &__header {
+    &--active {
+      display: block;
+      z-index: 1;
+    }
+
+    h1 {
       margin: 0;
-      font-size: 1rem;
+      padding: 0.5rem;
+    }
+    h2 {
+      margin: 0;
     }
   }
 
@@ -87,19 +92,10 @@ connection {
     margin-right: 5px;
   }
 
-  &--type-a { background-color: $color-a; }
-  &--type-b { background-color: $color-b; }
-  &--type-c { background-color: $color-c; }
-  &--type-d { background-color: $color-d; }
-
   &:hover {
     cursor: pointer;
     z-index: 1;
     transform: scale(1.1);
-
-    .tech-tree-module__overlay {
-      display: block !important;
-    }
   }
 
   &__header{
@@ -116,3 +112,8 @@ connection {
     height: 1.2em;
   }
 }
+
+.bg--type-a { background-color: $color-a; }
+.bg--type-b { background-color: $color-b; }
+.bg--type-c { background-color: $color-c; }
+.bg--type-d { background-color: $color-d; }

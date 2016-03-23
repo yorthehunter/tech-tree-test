@@ -266,6 +266,12 @@
         }
       );
 
+      $('.tech-tree-module').click(
+        function() {
+          $(".tech-tree-module__overlay").removeClass("tech-tree-module__overlay--active");
+          $(this).find(".tech-tree-module__overlay").addClass("tech-tree-module__overlay--active");
+        }
+      );
 
     });
   </script>
