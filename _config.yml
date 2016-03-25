@@ -11,7 +11,7 @@ email: boru.design@gmail.com
 description: Tech Tree Interactive Demo @ Stitch Fix
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yorthehunter.github.io" # the base hostname & protocol for your site
-baseurl: "/tech-tree-test"
+baseurl: "/tech-tree-output"
 twitter_username: yor_the_hunter
 github_username:  yorthehunter
 
