@@ -2,15 +2,15 @@
 
 <article class="tech-tree-module bg--type-{{ id.type }} {{ include.class }}" data-type="{{ id.type }}">
   <div class="tech-tree-module__content">
-    <header class="tech-tree-module__header">
-      <aside class="tech-tree-module__lock-status">
-        <span class='fa fa-{% if id.progress %}tasks{% else %}lock{% endif %}'></span>
-      </aside>
-    </header>
     <section class="tech-tree-module__identifier">
       {{ id.name }}
     </section>
-    <progress class="tech-tree-module__progress" max="5" value="{{ id.progress }}"></progress>
+    <footer>
+      <aside class="tech-tree-module__lock-status">
+        <span class='fa fa-{% if id.progress %}tasks{% else %}lock{% endif %}'></span>
+      </aside>
+      <progress class="tech-tree-module__progress" max="5" value="{{ id.progress }}"></progress>
+    </footer>
   </div>
   <aside class="tech-tree-module__overlay">
     <header class="tech-tree-module__overlay__header bg--type-{{ id.type }}">
