@@ -1,0 +1,17 @@
+batch_picking:
+  name: Batch Picking to LPN
+  type: a
+  progress: 2
+  description:
+    "Pickers today pick a single Fix at a time until it is complete, then move
+    on to the next Fix. This is inefficient and we’ve determined through
+    experimentation that we could improve this process through a system called
+    Batch Picking to LPN. This system should be a simple solution that we can
+    put in place with a minimal amount of resources and in a very short time."
+  links:
+    - name: Project Overview
+      url: http://www.google.com
+    - name: Sketch Files
+      url: http://www.google.com
+    - name: Flow Diagram
+      url: http://www.google.com

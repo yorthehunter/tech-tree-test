@@ -1,0 +1,2 @@
+short name,name,type,progress,description,link 1,link 2,link 3
+batch_picking,Batch Picking to LPN,a,2,"Pickers today pick a single Fix at a time until it is complete, then move on to the next Fix. This is inefficient and we’ve determined through experimentation that we could improve this process through a system called Batch Picking to LPN. This system should be a simple solution that we can put in place with a minimal amount of resources and in a very short time.",http://www.google.com,http://www.google.com,http://www.google.com

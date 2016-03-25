@@ -11,7 +11,7 @@
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,800' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-  
+
   <script src="http://code.jquery.com/jquery-latest.min.js"></script>
   <script>
   (function($) {
@@ -266,7 +266,33 @@
         }
       );
 
+      $('.tech-tree-module').click(
+        function() {
+          $(".tech-tree-module__overlay").removeClass("tech-tree-module__overlay--active");
 
+          viewport_center_x = Math.floor(window.innerWidth/2);
+          offset_left = $(this).offset().left;
+          target = $(this).find(".tech-tree-module__overlay");
+          target.addClass("tech-tree-module__overlay--active");
+          console.log(offset_left);
+          console.log(offset_left - 10 - target.width());
+
+          if ( offset_left < viewport_center_x ) {
+            target.offset({ left: ( offset_left + 108 ) });
+          } else {
+            target.offset({ left: ( offset_left - 10 - target.width() ) });
+          }
+
+          $(".cover-all").show();
+        }
+      );
+
+      $(".cover-all").click(
+        function() {
+          $(".tech-tree-module__overlay").removeClass("tech-tree-module__overlay--active");
+          $(this).hide();
+        }
+      );
     });
   </script>
 </head>
