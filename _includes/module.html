@@ -5,9 +5,9 @@
     <section class="tech-tree-module__identifier">
       {{ id.name }}
     </section>
-    <footer>
+    <footer class="tech-tree-module__footer">
       <aside class="tech-tree-module__lock-status">
-        <span class='fa fa-{% if id.progress %}tasks{% else %}lock{% endif %}'></span>
+        <span class='fa fa-{% if id.progress > 0 %}rocket{% else %}lock{% endif %}'></span>
       </aside>
       <progress class="tech-tree-module__progress" max="5" value="{{ id.progress }}"></progress>
     </footer>

@@ -1,5 +1,5 @@
 batch_picking:
-  name: Batch Picking to LPN
+  name: Batch Picking v1
   type: a
   progress: 2
   description:
@@ -15,3 +15,87 @@ batch_picking:
       url: http://www.google.com
     - name: Flow Diagram
       url: http://www.google.com
+
+pick_cart:
+  name: New Pick Cart
+  type: b
+  progress: 0
+  description:
+  links:
+
+pick_scanning_hardware:
+  name: Pick Scanning Hardware
+  type: b
+  progress: 0
+  description:
+  links:
+
+digital_non_apparel:
+  name: Digital Picking - Non Apparel
+  type: b
+  progress: 0
+  description:
+  links:
+
+pick_pathing:
+  name: Pick Pathing
+  type: b
+  progress: 0
+  description:
+  links:
+
+put_to_light:
+  name: Put to Light
+  type: c
+  progress: 0
+  description:
+  links:
+
+put_to_scan:
+  name: Put to Scan
+  type: c
+  progress: 0
+  description:
+  links:
+
+batch_picking_v2:
+  name: Batch Picking v2
+  type: c
+  progress: 0
+  description:
+  links:
+
+post_pick:
+  name: Post-pick Sortation
+  type: d
+  progress: 0
+  description:
+  links:
+
+put_wall:
+  name: Put Wall
+  type: d
+  progress: 0
+  description:
+  links:
+
+sort_solution:
+  name: Unknown Sort Solution
+  type: d
+  progress: 0
+  description:
+  links:
+
+put_to_tote:
+  name: Put to Tote/Line
+  type: d
+  progress: 0
+  description:
+  links:
+
+batch_pick_with_sortation:
+  name: Batch Pick with Sortation
+  type: d
+  progress: 0
+  description:
+  links:
